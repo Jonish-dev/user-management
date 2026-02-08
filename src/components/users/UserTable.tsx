@@ -119,7 +119,8 @@ const UserTable: React.FC<UserTableProps> = ({
                         prefix={<Search size={18} style={{ color: '#bfbfbf', marginRight: 4 }} />}
                         onChange={(e) => setSearchText(e.target.value)}
                         style={{
-                            width: 320,
+                            width: '100%',
+                            maxWidth: 320,
                             height: 40,
                             borderRadius: 8,
                             boxShadow: '0 2px 4px rgba(0,0,0,0.02)'
